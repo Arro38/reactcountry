@@ -36,7 +36,7 @@ function App() {
           />{" "}
           <span> {rangeValue}</span>
         </div>
-        <div>
+        <div className="btn-container">
           <button onClick={() => setSortValue("croissant")}>Croissant</button>
           <button onClick={() => setSortValue("décroissant")}>
             Décroissant
